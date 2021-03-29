@@ -9,7 +9,7 @@
 > next: triangles
 > translated: auto
 
-De nombreux concepts géométriques comme les [lignes](gloss:line) ou les [polygones](gloss:polygon) ont été «inventés» par les mathématiciens. La symétrie, en revanche, est partout autour de nous. Presque toutes les plantes, les animaux et même nous, les humains, sont symétriques.
+De nombreux concepts géométriques comme les [droites](gloss:line) ou les [polygones](gloss:polygon) ont été «inventés» par les mathématiciens. La symétrie, en revanche, est partout autour de nous. Presque toutes les plantes, les animaux et même nous, les humains, sont symétriques.
 
 ::: column(width=200)
 
@@ -41,7 +41,7 @@ Au fil du temps, nous avons imité la symétrie de la nature dans l'art, l'archi
 
 :::
 
-Mais la symétrie est beaucoup plus importante que la simple _beauté_ . Il est à la base même de notre univers et peut même expliquer les lois les plus fondamentales de la physique.
+Mais la symétrie est beaucoup plus importante que la simple _beauté_ . Elle est à la base même de notre univers et peut même expliquer les lois les plus fondamentales de la physique.
 
 _{button.next-step} Continuer_
 
@@ -74,7 +74,7 @@ Bien que la symétrie soit un concept très intuitif, sa description mathématiq
 ---
 > id: transformations-1
 
-Le résultat d'une transformation s'appelle l' [__image__](gloss:transformation-image) . On désigne souvent l'image d'une forme `A` comme `A'` , prononcé «A prime». Il existe de nombreux types de transformation différents, que nous explorerons plus en détail tout au long de ce cours.
+Le résultat d'une transformation s'appelle l [__image_](gloss:transformation-image) . On désigne souvent l'image(ou transformé) d'une forme `A` comme `A'` , prononcé «A prime». Il existe de nombreux types de transformation différents, que nous explorerons plus en détail tout au long de ce cours.
 
 ---
 
@@ -84,7 +84,7 @@ Le résultat d'une transformation s'appelle l' [__image__](gloss:transformation-
 > section: rigid
 > translated: auto
 
-Une [__transformation rigide__](gloss:rigid-transformation) est un type spécial de transformation qui ne change pas la taille ou la forme d'une figure. Nous pourrions imaginer qu'il est fait d'un matériau solide comme le bois ou le métal: nous pouvons le déplacer, le tourner ou le retourner, mais nous ne pouvons pas l'étirer, le plier ou le déformer.
+Une [__transformation rigide__](gloss:rigid-transformation) est un type spécial de transformation qui ne change pas la taille ou la forme d'une figure. Nous pourrions imaginer qu'elle est faite d'un matériau solide comme le bois ou le métal: nous pouvons la déplacer, la tourner ou la retourner, mais nous ne pouvons pas l'étirer, la plier ou la déformer.
 
 Laquelle de ces cinq transformations est rigide?
 
@@ -107,7 +107,7 @@ Il s'avère qu'il n'y a que trois types différents de transformations rigides:
       include svg/rigid-1.svg
       x-play-btn
 
-{.text-center} Une transformation qui _déplace_ simplement une forme s'appelle une [__traduction__](gloss:translation) .
+{.text-center} Une transformation qui _déplace_ simplement une forme s'appelle une [__translation__](gloss:translation) .
 
 ::: column.r(width=200)
 
@@ -115,7 +115,7 @@ Il s'avère qu'il n'y a que trois types différents de transformations rigides:
       include svg/rigid-2.svg
       x-play-btn
 
-{.text-center} Une transformation qui _retourne_ une forme est appelée une [__réflexion__](gloss:reflection) .
+{.text-center} Une transformation qui _retourne_ une forme est appelée une [__symétrie__](gloss:reflection) .
 
 ::: column.r(width=200)
 
@@ -130,7 +130,7 @@ Il s'avère qu'il n'y a que trois types différents de transformations rigides:
 ---
 > id: rigid-2
 
-Nous pouvons également combiner plusieurs types de transformation pour en créer des plus complexes - par exemple, une traduction suivie d'une rotation.
+Nous pouvons également combiner plusieurs types de transformations pour en créer des plus complexes - par exemple, une translation suivie d'une rotation.
 
 Mais d'abord, examinons plus en détail chacun de ces types de transformations.
 
@@ -139,7 +139,7 @@ Mais d'abord, examinons plus en détail chacun de ces types de transformations.
 
 ### Traductions
 
-Une [__traduction__](gloss:translation) est une transformation qui déplace chaque point d'une figure de la même distance dans la même direction.
+Une [_translation_](gloss:translation) est une transformation qui déplace chaque point d'une figure de la même distance dans la même direction.
 
 Dans le plan de coordonnées, nous pouvons spécifier une translation de la distance de déplacement de la forme le long de l'axe _x_ et de l'axe _y_ . Par exemple, une transformation de (3, 5) déplace une forme de 3 le long de l'axe _x_ et de 5 le long de l'axe _y_ .
 
@@ -223,11 +223,11 @@ Maintenant, c'est votre tour - traduisez les formes suivantes comme indiqué:
 > id: reflections
 > goals: r0 r1 r2
 
-### Réflexions
+### Symétries
 
-Une [__réflexion__](gloss:reflection) est une transformation qui «retourne» ou «reflète» une forme sur une ligne. Cette ligne est appelée la __ligne de réflexion__ .
+Une [__symétrie__](gloss:reflection) est une transformation qui «retourne» ou «reflète» une forme sur une ligne. Cette ligne est appelée l'__axe de symétrie__ .
 
-Tracez la ligne de réflexion dans chacun de ces exemples:
+Tracez l'axe de symétrie dans chacun de ces exemples:
 
 ::: column(width=220)
 
@@ -253,10 +253,10 @@ Tracez la ligne de réflexion dans chacun de ces exemples:
 :::
 
 ---
-> id: reflections-1
+> id: symétries-1
 > goals: r0 r1 r2
 
-Maintenant, c'est votre tour - dessinez le reflet de chacune de ces formes:
+Maintenant, c'est votre tour - dessinez le reflet symétrique de chacune de ces formes:
 
 ::: column(width=220)
 
@@ -282,14 +282,14 @@ Maintenant, c'est votre tour - dessinez le reflet de chacune de ces formes:
 :::
 
 ---
-> id: reflections-2
+> id: symétries-2
 
-Notez que si un point se trouve sur la ligne de réflexion, il [[ne bouge pas | tourne | bascule]] lorsqu'il est réfléchi: _{span.reveal(when="blank-0")} son image est le même point que l'original._
+Notez que si un point se trouve sur l'axe de symétrie, il [[ne bouge pas | tourne | bascule]] lorsqu'il est réfléchi: _{span.reveal(when="blank-0")} son image est le même point que l'original._
 
 ---
-> id: reflections-3
+> id: symétries-3
 
-Dans tous les exemples ci-dessus, la ligne de réflexion était horizontale, verticale ou à un angle de 45°, ce qui facilitait le dessin des réflexions. Si ce n'est pas le cas, la construction nécessite un peu plus de travail:
+Dans tous les exemples ci-dessus, l'axe de symétrie était horizontal, vertical ou à un angle de 45°, ce qui facilitait le dessin des transformés. Si ce n'est pas le cas, la construction nécessite un peu plus de travail:
 
 ::: column(width=300)
 
@@ -329,15 +329,15 @@ Dans tous les exemples ci-dessus, la ligne de réflexion était horizontale, ver
 
 ::: column.grow
 
-{.r} Pour refléter cette forme sur la [ligne de réflexion](target:refl) , nous devons réfléchir chaque [sommet](gloss:polygon-vertex) individuellement, puis les relier à nouveau. _{button.next-step} Continuer_
+{.r} Pour refléter cette forme sur l'[axe de symétrie](target:refl) , nous devons trouver l'image de chaque [sommet](gloss:polygon-vertex) individuellement, puis les relier à nouveau. _{button.next-step} Continuer_
 
-{.r.reveal(when="next-0")} Choisissons l'un des sommets et dessinons la ligne à travers ce sommet qui est perpendiculaire à la ligne de réflexion. _{button.next-step} Continuer_
+{.r.reveal(when="next-0")} Choisissons l'un des sommets et dessinons la ligne à travers ce sommet qui est perpendiculaire à l'axe de symétrie. _{button.next-step} Continuer_
 
-{.r.reveal(when="next-1")} Maintenant, nous pouvons mesurer la [distance](target:d1) entre le sommet et la ligne de réflexion, et faire le point qui a la [même distance](target:d2) de l'autre côté. _{span.lgrey} (Nous pouvons utiliser une règle ou une [boussole](target:circ) pour ce faire.)_ _{button.next-step} Continuer_
+{.r.reveal(when="next-1")} Maintenant, nous pouvons mesurer la [distance](target:d1) entre le sommet et l'axe de symétrie, et placer le point qui est à la [même distance](target:d2) de l'autre côté. _{span.lgrey} (Nous pouvons utiliser une règle ou un [compas](target:circ) pour ce faire.)_ _{button.next-step} Continuer_
 
 {.r.reveal(when="next-2")} Nous pouvons faire de même pour tous les autres sommets de notre forme. _{button.next-step} Continuer_
 
-{.r.reveal(when="next-3")} Il ne nous reste plus qu'à connecter les sommets réfléchis dans le bon ordre, et nous avons trouvé la réflexion!
+{.r.reveal(when="next-3")} Il ne nous reste plus qu'à connecter les sommets réfléchis dans le bon ordre, et nous avons trouvé la figure symétrique!
 
 :::
 
@@ -347,7 +347,7 @@ Dans tous les exemples ci-dessus, la ligne de réflexion était horizontale, ver
 
 ### Rotations
 
-Une [__rotation__](gloss:rotation) est une transformation qui «transforme» une forme d'un certain angle autour d'un point fixe. Ce point est appelé le [__centre de rotation__](gloss:center-of-rotation) . Les rotations peuvent être dans le sens horaire ou antihoraire.
+Une [__rotation__](gloss:rotation) est une transformation qui «transforme» une forme d'un certain angle autour d'un point fixe. Ce point est appelé le [__centre de rotation__](gloss:center-of-rotation) . Les rotations peuvent se faire dans le sens horaire ou antihoraire.
 
 Essayez de faire pivoter les formes ci-dessous autour du centre de rotation rouge:
 
@@ -425,13 +425,13 @@ Essayez de faire pivoter les formes ci-dessous autour du centre de rotation roug
 
 Il est plus difficile de dessiner des rotations qui ne sont pas exactement à 90° ou 180°. Essayons de faire pivoter cette forme en ${10*ang}{ang|6|-18,18,1}° autour du [centre de rotation](target:rot) .
 
-{.r} Comme pour les réflexions, nous devons faire pivoter chaque point d'une forme individuellement. _{button.next-step} Continuer_
+{.r} Comme pour les symétries, nous devons faire pivoter chaque point d'une forme individuellement. _{button.next-step} Continuer_
 
-{.r.reveal(when="next-0")} Nous commençons par choisir l'un des sommets et tracer une ligne au centre de rotation. _{button.next-step} Continuer_
+{.r.reveal(when="next-0")} Nous commençons par choisir l'un des sommets et tracer une ligne qui le relie au centre de rotation. _{button.next-step} Continuer_
 
-{.r.reveal(when="next-1")} En utilisant un [rapporteur](target:protractor) , nous pouvons mesurer un [angle de ${ang*10}°](target:angle) autour du centre de rotation. Tirons une [deuxième ligne](target:l2) à cet angle. _{button.next-step} Continuer_
+{.r.reveal(when="next-1")} En utilisant un [rapporteur](target:protractor) , nous pouvons mesurer un [angle de ${ang*10}°](target:angle) autour du centre de rotation. Traçons un [deuxième côté](target:l2) à cet angle. _{button.next-step} Continuer_
 
-{.r.reveal(when="next-2")} En utilisant une [boussole](target:compass) ou une règle, nous pouvons trouver un [point](target:a1) sur cette ligne qui a la même distance du centre de rotation que le point d'origine. _{button.next-step} Continuer_
+{.r.reveal(when="next-2")} En utilisant un [compas](target:compass) ou une règle, nous pouvons trouver un [point](target:a1) sur cette ligne qui a la même distance du centre de rotation que le point d'origine. _{button.next-step} Continuer_
 
 {.r.reveal(when="next-3")} Nous devons maintenant répéter ces étapes pour tous les autres sommets de notre forme. _{button.next-step} Continuer_
 
@@ -462,7 +462,7 @@ TODO
 > section: symmetry
 > translated: auto
 
-La [__symétrie__](gloss:symmetry) est partout autour de nous, et un concept intuitif: les différentes parties d'un regard d'objet _même_ d' une certaine façon. Mais en utilisant des transformations, nous pouvons donner une définition mathématique beaucoup plus précise de ce que signifie _réellement la_ symétrie:
+La [__symétrie__](gloss:symmetry) est partout autour de nous, et c'est un concept intuitif: les différentes parties de ces objets sont _semblables_ d' une certaine façon. Mais en utilisant des transformations, nous pouvons donner une définition mathématique beaucoup plus précise de ce que signifie _réellement la_ symétrie:
 
 {.definition} Un objet est _symétrique_ s'il a la même apparence, même après avoir appliqué une certaine transformation.
 
@@ -473,7 +473,7 @@ La [__symétrie__](gloss:symmetry) est partout autour de nous, et un concept int
       img(src="images/symmetry-1.png" width=320 height=240)
       x-play-btn
 
-{.text-center} Nous pouvons refléter ce papillon, et il a la même apparence après. Nous disons qu'il a __une symétrie réflexionnelle__ .
+{.text-center} Nous pouvons refléter ce papillon, et il a la même apparence après. Nous disons qu'il a __une symétrie axiale__ .
 
 ::: column.grow
 
@@ -482,16 +482,16 @@ La [__symétrie__](gloss:symmetry) est partout autour de nous, et un concept int
       img(src="images/symmetry-2.jpg" width=320 height=240)
       x-play-btn
 
-{.text-center} Nous pouvons faire pivoter cette fleur, et elle aura la même apparence par la suite. Nous disons qu'il a __une symétrie de rotation__ .
+{.text-center} Nous pouvons faire pivoter cette fleur, et elle aura la même apparence par la suite. Nous disons qu'il a __une symétrie centrale__ .
 
 :::
 
 ---
 > id: reflectional-symmetry
 
-### Symétrie réflexive
+### Symétrie axiale ou réflexion
 
-Une forme a [__une symétrie de réflexion__](gloss:reflectional-symmetry) si elle a la même apparence après avoir été réfléchie. La ligne de réflexion est appelée l' [__axe de symétrie__](gloss:axis-of-symmetry) , et elle divise la forme en deux [[congruentes | égal |]] moitiés [[similaires]] . Certaines figures peuvent également avoir plusieurs axes de symétrie.
+Une forme a [__une symétrie axiale_](gloss:reflectional-symmetry) si elle a la même apparence après avoir été réfléchie. La ligne de réflexion est appelée l' [__axe de symétrie__](gloss:axis-of-symmetry) , et elle divise la forme en deux moitiés [[égales]] et [(réfléchies)] . Certaines figures peuvent également avoir plusieurs axes de symétrie.
 
 ---
 > id: reflectional-symmetry-1
@@ -554,7 +554,7 @@ Dessinez tous les axes de symétrie dans ces six images et formes:
 ---
 > id: alphabet
 
-De nombreuses lettres de l'alphabet ont une symétrie de réflexion. Sélectionnez tous ceux qui le font:
+De nombreuses lettres de l'alphabet ont une symétrie axiale. Sélectionnez toutes celles qui ont cette propriété:
 
     x-picker.letters
       - let c = ['#D92120', '#E6642C', '#E68E34', '#D9AD3C', '#B5BD4C', '#7FB972', '#63AD99', '#55A1B1', '#488BC2', '#4065B1', '#413B93', '#781C81']
@@ -568,7 +568,7 @@ De nombreuses lettres de l'alphabet ont une symétrie de réflexion. Sélectionn
 > id: reflectional-symmetry-2
 > goals: r0 r1 r2
 
-Voici d'autres formes. Complétez-les pour qu'ils aient une symétrie de réflexion:
+Voici d'autres formes. Complétez-les pour qu'elles aient une symétrie daiale:
 
 ::: column(width=220)
 
@@ -601,9 +601,9 @@ Voici d'autres formes. Complétez-les pour qu'ils aient une symétrie de réflex
 > id: palindromes
 > goals: p0 p1 p2
 
-Les formes, les lettres et les images peuvent avoir une symétrie de réflexion, tout comme les nombres entiers, les mots et les phrases!
+Les formes, les lettres et les images peuvent avoir une symétrie axiale, tout comme les nombres entiers, les mots et les phrases!
 
-Par exemple, «25352» et «ANNA» lisent tous les deux la même chose de l'arrière vers l'avant. Des nombres ou des mots comme celui-ci sont appelés [__Palindromes__](gloss:palindrome) . Pouvez-vous penser à d'autres palindromes?
+Par exemple, «25352» et «ANNA» se lisent tous les deux de la même façon de gauche à droite et de droite à gauche. Des nombres ou des mots comme celui-ci sont appelés [__palindromes__](gloss:palindrome) . Pouvez-vous penser à d'autres palindromes?
 
     form.palindromes.text-center.form-field
       input(type="text")
@@ -735,7 +735,7 @@ Complétez maintenant ces formes, afin qu'elles aient une symétrie de rotation:
 
 ::: column.grow(width=200)
 
-Vous avez déjà montré ci-dessus qu'un carré a [[4]] axes de réflexion.
+Vous avez déjà montré ci-dessus qu'un carré a [[4]] axes de symétrie.
 
 {.reveal(when="blank-0")} Il présente également une symétrie de rotation de [[90]]°, [[180]]° et [[270]]°.
 
@@ -895,7 +895,7 @@ Les groupes peuvent également être utilisés pour analyser la stratégie gagna
 
 > id: wallpaper-groups
 
-Dans les [sections précédentes,](/course/transformations/symmetry) nous avons vu deux types de symétrie différents correspondant à deux transformations différentes: les rotations et les réflexions. Mais il y a aussi une symétrie pour le troisième type de transformation rigide: les [[traductions | tourne | retourne]] .
+Dans les [sections précédentes,](/course/transformations/symmetry) nous avons vu deux types de symétrie différents correspondant à deux transformations différentes: les rotations et les réflexions. Mais il y a aussi une symétrie pour le troisième type de transformation rigide: les [[translations | tours | retours]] .
 
 ---
 > id: wallpaper-groups-1
@@ -926,7 +926,7 @@ Dans les [sections précédentes,](/course/transformations/symmetry) nous avons 
 ---
 > id: footsteps
 
-En plus de la symétrie réflexionnelle, rotationnelle et translationnelle, il existe même un quatrième type: les [__réflexions de glissement__](gloss:glide-reflection) . Il s'agit d'une combinaison d'une réflexion et d'une translation dans le même sens que l'axe de réflexion.
+En plus de la symétrie axiale, de rotation et translationnelle, il existe même un quatrième type: les [__réflexions de glissement__](gloss:glide-reflection) . Il s'agit d'une combinaison d'une symétrie et d'une translation dans le même sens que l'axe de réflexion.
 
     figure
       .footsteps
@@ -963,7 +963,7 @@ Ces groupes ne vous disent pas grand-chose à quoi _ressemble_ le motif (par exe
 > id: wallpaper-groups-3
 > goals: gallery
 
-Il s'avère que, bien qu'il existe une infinité de modèles possibles, ils ont tous l'un des 17 groupes de symétrie différents. Ceux-ci sont appelés les __groupes de papier peint__ . Chaque groupe de papier peint est défini par une combinaison de traductions, rotations, réflexions et réflexions de glissement. Pouvez-vous voir les [centres de rotation](gloss:center-of-rotation) et les [axes de réflexion](gloss:axis-of-symmetry) dans ces exemples?
+Il s'avère que, bien qu'il existe une infinité de modèles possibles, ils ont tous l'un des 17 groupes de symétrie différents. Ceux-ci sont appelés les __groupes de papier peint__ . Chaque groupe de papier peint est défini par une combinaison de traductions, rotations, symétrie et réflexions de glissement. Pouvez-vous voir les [centres de rotation](gloss:center-of-rotation) et les [axes de symétrie](gloss:axis-of-symmetry) dans ces exemples?
 
     x-gallery(slide-width="320")
       div
@@ -1040,7 +1040,7 @@ Perpendicular glide reflections, rotations of order 2, translations
 > title: Drawing Wallpaper Symmetries
 > goals: draw-1 draw-2 switch
 
-Malheureusement, il n'y a pas de raison simple pour laquelle il y a _17_ de ces groupes, et prouver qu'il nécessite des mathématiques plus avancées. Au lieu de cela, vous pouvez essayer de dessiner vos propres motifs répétés pour chacun des 17 groupes de fonds d'écran:
+Malheureusement, il n'y a pas de raison simple pour laquelle il y a _17_ de ces groupes, et le prouver  nécessite des mathématiques plus avancées. Au lieu de cela, vous pouvez essayer de dessiner vos propres motifs répétés pour chacun des 17 groupes de fonds d'écran:
 
 
     figure: x-wallpaper
@@ -1058,7 +1058,7 @@ Malheureusement, il n'y a pas de raison simple pour laquelle il y a _17_ de ces 
 
 Les groupes de papier peint étaient tous sur des motifs plats et bidimensionnels. Nous pouvons faire quelque chose de similaire pour les modèles tridimensionnels: ceux-ci sont appelés groupes cristallographiques, et il y en a 219!
 
-En plus des translations, des réflexions, des rotations et des réflexions de glissement, ces groupes incluent des symétries comme __des plans de glissement__ et __des axes de vis__ (pensez au mouvement lorsque vous dévissez une bouteille).
+En plus des translations, des symétries, des rotations et des réflexions de glissement, ces groupes incluent des symétries comme __des plans de glissement__ et __des axes de vis__ (pensez au mouvement lorsque vous dévissez une bouteille).
 
 ::: column(width=300)
 
@@ -1129,14 +1129,14 @@ La symétrie peut même prédire l'existence de particules fondamentales. Un exe
 > section: dilations
 > translated: auto
 
-Jusqu'à présent, nous venons de regarder [[rigide | conforme |]] transformations [[visuelles]] . _{span.reveal(when="blank-0")} Maintenant, réfléchissons à une autre: une [__dilatation__](gloss:dilation) change la taille d'une forme en l'agrandissant ou en la diminuant._
+Jusqu'à présent, nous venons de regarder des transformations [[rigides]] . _{span.reveal(when="blank-0")} Maintenant, réfléchissons à une autre: une [__dilatation__](gloss:dilation) change la taille d'une forme en l'agrandissant ou en la diminuant._
 
 ---
 > id: dilations-1
 
 ::: column.grow
 
-Toutes les dilatations ont un [__centre__](target:center) et un [__facteur d'échelle__](->.scale-target) . Le centre est le point de référence pour la dilatation et le facteur d'échelle nous indique dans quelle mesure la figure s'étire ou rétrécit.
+Toutes les dilatations ont un [__centre__](target:center) et un [__facteur d'échelle__](->.scale-target) . Le centre est le point de référence pour la dilatation et le facteur d'échelle nous indique dans quelle mesure la figure s'agrandit ou rétrécit.
 
 Si le [facteur d'échelle](gloss:scale-factor) est compris entre 0 et 1, l'image est [[plus petite | plus grand]] que l'original. Si le facteur d'échelle est supérieur à 1, l'image est [[plus grande | plus petit]] que l'original.
 
